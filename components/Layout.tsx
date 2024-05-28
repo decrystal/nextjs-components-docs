@@ -66,26 +66,7 @@ export default function Layout({ children }: Props) {
         </div>
       </div>
       <div className="py-8 max-w-5xl mx-auto">{children}</div>
-      <footer>
-        <div className="mt-16 flex flex-col items-center">
-          <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-            <div>狂奔滴小马</div>
-            <div>{` • `}</div>
-            <div>{`© ${new Date().getFullYear()}`}</div>
-            <div>{` • `}</div>
-            <Link href="/">NextJS Components</Link>
-          </div>
-          <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-            <a
-              href="https://beian.miit.gov.cn/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              浙ICP备17007919号-1
-            </a>
-          </div>
-        </div>
-      </footer>
+      <footer></footer>
     </>
   );
 }

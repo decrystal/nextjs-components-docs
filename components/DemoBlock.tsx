@@ -6,8 +6,9 @@ const DemoBlock = ({ children }: any) => {
 
   return (
     <div className="demo-block">
-      {children.map((child: any) => {
+      {children?.map((child: any) => {
         if (child.type === "pre") {
+          console.log("test-child", child);
           return (
             <div key={child.key}>
               <div

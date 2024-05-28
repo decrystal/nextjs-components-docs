@@ -8,8 +8,8 @@ import {
 import dynamic from "next/dynamic";
 
 const data = [
-  { name: "用户选择", slug: "user-select" },
-  { name: "登录弹窗", slug: "login" },
+  { name: "layout", slug: "user-select" },
+  // { name: "登录弹窗", slug: "login" },
   { name: "工具函数", slug: "utils" },
 ];
 
